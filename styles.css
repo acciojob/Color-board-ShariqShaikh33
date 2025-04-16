@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+*{
+	background: black;
+}
+
+.container{
+	background: none;
+	width: 880px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.square{
+	background: #363737;
+	margin: 1px;
+	width: 20px;
+	height: 20px;
+	/* transition: background-color 1s cubic-bezier(0,1,1,0.5); */
+}
+.square:hover{
+	background: white;
+}
