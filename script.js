@@ -22,6 +22,16 @@ elementArray.forEach((e)=>{
 	})
 })
 
+//elementArray.forEach((e)=>{
+	//setInterval(function(e){
+		let r = Math.floor(Math.random()*(255-0+1))+0;
+		let g = Math.floor(Math.random()*(255-0+1))+0;
+		let b = Math.floor(Math.random()*(255-0+1))+0;
+		let col = "rgb(" + r + "," + g + "," + b + ")";
+		e.style.backgroundColor= col;
+	},100)
+})
+
 // let square = document.querySelectorAll(".square");
 // console.log(square)
 elementArray.forEach((e)=>{
