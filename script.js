@@ -26,7 +26,7 @@ elementArray.forEach((e)=>{
 // console.log(square)
 elementArray.forEach((e)=>{
 	e.addEventListener("mouseleave",()=>{
-		e.style.background = "#363737"
+		e.style.background = 'rgb(29, 29, 29)'
 		e.style.boxShadow = "none"
 		e.style.transition = "1s";
 	})
