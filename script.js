@@ -4,7 +4,7 @@ const container = document.getElementById("container");
 let count = 800;
 for(let i=0;i<count;i++){
 	let makeSquare = document.createElement('div');
-	//makeSquare.style.backgroundColor = 'rgb(29, 29, 29)';
+	makeSquare.style.backgroundColor = 'rgb(29, 29, 29)';
 	makeSquare.className = ("square");
 	container.appendChild(makeSquare);
 }
@@ -22,7 +22,8 @@ elementArray.forEach((e)=>{
 
 elementArray.forEach((e)=>{
 	e.addEventListener("mouseleave",()=>{
-		e.style.backgroundColor = 'rgb(29, 29, 29)'
+		e.style.backgroundColor = 'rgb(29, 29, 29)';
+		e.style.transition = "1s"
 		e.style.boxShadow = "none"
 	})
 })
