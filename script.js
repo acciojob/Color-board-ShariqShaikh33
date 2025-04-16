@@ -16,7 +16,7 @@ elementArray.forEach((e)=>{
 		let b = Math.floor(Math.random()*(255-0+1))+0;
 		let col = "rgb(" + r + "," + g + "," + b + ")";
 		e.style.boxShadow =  "0 0 5px "+col;
-		e.style.backgroundColor = col;
+		e.style.backgroundColor = 'rgb(29,29,29)';
 	})
 })
 
