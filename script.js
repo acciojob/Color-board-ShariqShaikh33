@@ -20,7 +20,6 @@ elementArray.forEach((e)=>{
 
 		e.style.backgroundColor = 'rgb(29, 29, 29)';
 	})
-})
 
 // let square = document.querySelectorAll(".square");
 // console.log(square)
