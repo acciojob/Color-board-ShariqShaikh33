@@ -18,7 +18,7 @@
 	height: 20px;
 	
 
-	transition: 1s;
+	transition: 4s;
 }
 .square:hover{
 	background-color: red;
